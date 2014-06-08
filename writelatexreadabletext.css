@@ -1,0 +1,25 @@
+// Styles writelatex slightly differently
+
+.CodeMirror span {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-size: 18px !important;
+	line-height: 23px !important;
+}
+
+pre {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-size: 18px !important;
+	line-height: 23px !important;
+}
+
+span.cm-keyword {
+	color: #C1C2E9 !important;
+}
+
+span.cm-tag {
+	color: #A9D8D8 !important;
+}
+
+span.cm-bracket {
+	color: #B5B6CE !important;
+}

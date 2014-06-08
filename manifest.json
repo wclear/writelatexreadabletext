@@ -1,0 +1,16 @@
+{
+  "name": "WriteLatex Readable Text",
+  "description": "Slightly changes the font and style of writelatex css to make it more readable.",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts":[{
+    "css":["writelatexreadabletext.css"],
+	"matches":["https://www.writelatex.com/*"]
+  }],
+  "browser_action": {
+    "default_title": "Slightly more readable writelatex css"
+  },
+  "manifest_version": 2
+}
